@@ -6,16 +6,22 @@
       "uri":"https://img.freepik.com/free-icon/wifi_318-1573.jpg?size=338&ext=jpg&ga=GA1.2.2071170795.1660784618"
    },
    {
-      "num":2,
-      "title":"전화",
-      "genre":"icon",
-      "uri":"https://img.freepik.com/free-icon/auricular-phone_318-1028.jpg?size=338&ext=jpg&ga=GA1.2.2071170795.1660784618"
+      "num":9,
+      "title":"달",
+      "genre":"picture",
+      "uri":"https://img.freepik.com/free-photo/closeup-shot-of-the-moon-isolated-on-a-black-background-great-for-articles-about-space_181624-8407.jpg?size=338&ext=jpg&ga=GA1.2.2071170795.1660784618"
    },
    {
       "num":3,
       "title":"체크",
       "genre":"icon",
       "uri":"https://img.freepik.com/free-icon/check-sign_318-9087.jpg?size=338&ext=jpg&ga=GA1.2.2071170795.1660784618"
+   },
+   {
+      "num":11,
+      "title":"바다",
+      "genre":"picture",
+      "uri":"https://img.freepik.com/free-photo/beautiful-tropical-empty-beach-sea-ocean-with-white-cloud-on-blue-sky-background_74190-13665.jpg?size=626&ext=jpg&ga=GA1.2.2071170795.1660784618"
    },
    {
       "num":4,
@@ -28,6 +34,12 @@
       "title":"남자",
       "genre":"icon",
       "uri":"https://img.freepik.com/free-icon/important-person_318-10744.jpg?size=338&ext=jpg&ga=GA1.2.2071170795.1660784618"
+   },
+   {
+      "num":20,
+      "title":"사람",
+      "genre":"picture",
+      "uri":"https://img.freepik.com/free-photo/lifestyle-people-emotions-and-casual-concept-confident-nice-smiling-asian-woman-cross-arms-chest-confident-ready-to-help-listening-to-coworkers-taking-part-conversation_1258-59335.jpg?size=626&ext=jpg&ga=GA1.2.2071170795.1660784618"
    },
    {
       "num":6,
@@ -48,28 +60,22 @@
       "uri":"https://img.freepik.com/free-icon/star-with-five-rounded-points_318-504.jpg?size=338&ext=jpg&ga=GA1.2.2071170795.1660784618"
    },
    {
-      "num":9,
-      "title":"달",
-      "genre":"picture",
-      "uri":"https://img.freepik.com/free-photo/closeup-shot-of-the-moon-isolated-on-a-black-background-great-for-articles-about-space_181624-8407.jpg?size=338&ext=jpg&ga=GA1.2.2071170795.1660784618"
-   },
-   {
       "num":10,
       "title":"별",
       "genre":"picture",
       "uri":"https://img.freepik.com/free-photo/low-angle-shot-of-the-mesmerizing-starry-sky_181624-27925.jpg?size=626&ext=jpg&ga=GA1.2.2071170795.1660784618"
    },
    {
-      "num":11,
-      "title":"바다",
-      "genre":"picture",
-      "uri":"https://img.freepik.com/free-photo/beautiful-tropical-empty-beach-sea-ocean-with-white-cloud-on-blue-sky-background_74190-13665.jpg?size=626&ext=jpg&ga=GA1.2.2071170795.1660784618"
-   },
-   {
       "num":12,
       "title":"숲",
       "genre":"picture",
       "uri":"https://img.freepik.com/free-photo/aerial-view-of-green-forest_144627-45271.jpg?size=626&ext=jpg&ga=GA1.2.2071170795.1660784618"
+   },
+   {
+      "num":2,
+      "title":"전화",
+      "genre":"icon",
+      "uri":"https://img.freepik.com/free-icon/auricular-phone_318-1028.jpg?size=338&ext=jpg&ga=GA1.2.2071170795.1660784618"
    },
    {
       "num":13,
@@ -84,16 +90,16 @@
       "uri":"https://img.freepik.com/free-photo/sepia-plasterboard-texture_95678-405.jpg?size=626&ext=jpg&ga=GA1.2.2071170795.1660784618"
    },
    {
-      "num":15,
-      "title":"종이",
-      "genre":"picture",
-      "uri":"https://img.freepik.com/free-photo/vintage-crumpled-paper-textured-background_53876-103940.jpg?size=626&ext=jpg&ga=GA1.2.2071170795.1660784618"
-   },
-   {
       "num":16,
       "title":"종이",
       "genre":"picture",
       "uri":"https://img.freepik.com/free-photo/white-crinkled-paper-texture_53876-95917.jpg?size=338&ext=jpg&ga=GA1.2.2071170795.1660784618"
+   },
+   {
+      "num":26,
+      "title":"공유",
+      "genre":"icon",
+      "uri":"https://cdn3.iconfinder.com/data/icons/feather-5/24/external-link-128.png"
    },
    {
       "num":17,
@@ -112,12 +118,6 @@
       "title":"손",
       "genre":"picture",
       "uri":"https://img.freepik.com/free-photo/human-hand-isolated_329181-4791.jpg?size=626&ext=jpg&ga=GA1.2.2071170795.1660784618"
-   },
-   {
-      "num":20,
-      "title":"사람",
-      "genre":"picture",
-      "uri":"https://img.freepik.com/free-photo/lifestyle-people-emotions-and-casual-concept-confident-nice-smiling-asian-woman-cross-arms-chest-confident-ready-to-help-listening-to-coworkers-taking-part-conversation_1258-59335.jpg?size=626&ext=jpg&ga=GA1.2.2071170795.1660784618"
    },
    {
       "num":21,
@@ -148,12 +148,6 @@
       "title":"금지",
       "genre":"icon",
       "uri":"https://cdn3.iconfinder.com/data/icons/feather-5/24/slash-128.png"
-   },
-   {
-      "num":26,
-      "title":"공유",
-      "genre":"icon",
-      "uri":"https://cdn3.iconfinder.com/data/icons/feather-5/24/external-link-128.png"
    },
    {
       "num":27,

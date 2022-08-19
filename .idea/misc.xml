@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/pineone/AndroidStudioProjects/FirstMVVM/app/src/main/res/drawable/bg_button.xml" value="0.1" />
+        <entry key="..\:/Users/pineone/AndroidStudioProjects/FirstMVVM/app/src/main/res/drawable/bg_edittext.xml" value="0.1" />
         <entry key="..\:/Users/pineone/AndroidStudioProjects/FirstMVVM/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/pineone/AndroidStudioProjects/FirstMVVM/app/src/main/res/layout/item_main.xml" value="0.14479166666666668" />
       </map>
