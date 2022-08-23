@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
-import com.example.firstmvvm.adapter.MyAdapter
+import com.example.firstmvvm.adapter.MyListAdapter
 import com.example.firstmvvm.databinding.ActivityMainBinding
 import com.example.firstmvvm.model.ImageData
 import com.example.firstmvvm.viewmodel.MainViewModel
@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
     private val viewModel: MainViewModel by viewModels()
     private lateinit var imageDataList: List<ImageData>
 
-    private val myAdapter: MyAdapter by lazy {
-        MyAdapter(viewModel, imageDataList)
+    private val myAdapter: MyListAdapter by lazy {
+        MyListAdapter(viewModel, imageDataList, Glide.with(this))
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity() {
             searchKeyword(it)
         }
         viewModel.title.observe(this) {
-            setTitle(it)
         }
         viewModel.imageUri.observe(this) {
             setImage(it)
@@ -55,15 +54,16 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // 입력받은 검색어로 데이터 필터링, 리스트 갱신
     private fun searchKeyword(keyword: String) {
         imageDataList = viewModel.loadImageData(keyword)
         myAdapter.setData(imageDataList)
         binding.rvImg.adapter!!.notifyDataSetChanged()
     }
 
-    private fun setTitle(title: String) {
-        binding.tvTitle.text = title
-    }
+//    private fun setTitle(title: String) {
+//        binding.tvTitle.text = title
+//    }
 
     private fun setImage(uri: String) {
         Glide.with(this)
